@@ -1,0 +1,166 @@
+/* title  */
+#title{
+    background-color: #ff4c68;
+    color: whitesmoke;
+    
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Navigation bar  */
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.nav-item{
+    padding:0 18px ;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* Download button  */
+
+.dwnbtn{
+    margin:5% 3% 5% 0 ;
+}
+
+/* titleimg */
+
+.titleimg{
+    width: 60%;
+    transform: rotate(25deg);
+    right: 30%;
+    position: absolute;
+}
+
+
+/* feature */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    
+}
+
+.featurebox {
+    padding: 5%;
+    text-align: center;
+}
+
+.featurebox h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.icon{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonial */
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: whitesmoke;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width:15% ;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding:3% 2%;
+}
+/* media  */
+@media (max-width:1024px){
+    .titleimg{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+/* call to action */
+
+#cta{
+    background-color: #ff4c68;
+    padding:7% 15%;
+    font-family: "Montserrat";
+    color: whitesmoke;
+    text-align: center;
+    
+}
+
+.ctah3{ 
+    font-size: 3.5rem;
+}
+
+/* footer  */
+
+#footer{
+    padding:7% 15%;
+    text-align: center;
+}
+
+.footer-icon{
+    margin: 10px 20px;
+}
