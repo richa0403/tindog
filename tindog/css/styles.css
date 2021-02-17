@@ -1,15 +1,17 @@
 /* title  */
-#title{
-    background-color: #ff4c68;
-    color: whitesmoke;
-    
-}
-.container-fluid{
+#title .container-fluid{
     padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* container  */
+.container-fluid{
+    padding: 7% 15%;
 }
 
 body{
     font-family: 'Ubuntu', sans-serif;
+    text-align: center;
 }
 h1{
     
@@ -57,15 +59,12 @@ h1{
 /* feature */
 
 #features{
-    padding: 7% 15%;
-    background-color: #fff;
     position: relative;
-    
 }
 
 .featurebox {
     padding: 5%;
-    text-align: center;
+    
 }
 
 .featurebox h3{
@@ -85,11 +84,8 @@ h1{
 /* testimonial */
 
 #testimonials{
-    
-    text-align: center;
     background-color: #ef8172;
-    color: whitesmoke;
-}
+    }
 
 h2{
     font-family: "Montserrat";
@@ -105,7 +101,6 @@ h2{
 
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -114,19 +109,18 @@ h2{
     margin: 20px 20px 50px;
 }
 
-.carousel-item{
-    padding: 7% 15%;
-}
+
 
 /* pricing */
 
 #pricing{
     padding: 100px;
-    text-align: center;
+    
 }
 
 .pricing-col{
     padding:3% 2%;
+    font-weight: lighter;
 }
 /* media  */
 @media (max-width:1024px){
@@ -142,13 +136,11 @@ h2{
 /* call to action */
 
 #cta{
-    background-color: #ff4c68;
-    padding:7% 15%;
-    font-family: "Montserrat";
-    color: whitesmoke;
-    text-align: center;
+   font-family: "Montserrat";
+}  
     
-}
+    
+
 
 .ctah3{ 
     font-size: 3.5rem;
@@ -156,11 +148,16 @@ h2{
 
 /* footer  */
 
-#footer{
-    padding:7% 15%;
-    text-align: center;
-}
-
 .footer-icon{
     margin: 10px 20px;
+}
+
+
+/* background color  */
+.colored-sec{
+    background-color: #ff4c68;
+    color: whitesmoke;
+}
+.white-sec{
+    background-color: #fff;
 }
